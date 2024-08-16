@@ -9,7 +9,7 @@ import { ChatService } from '../../services/chat.service';
   standalone: true,
   imports: [FormsModule,CommonModule],
   templateUrl: './chat.component.html',
-  styleUrls: ['./chat.component.css'],
+  styleUrls: ['./chat.component.scss'],
 })
 export class ChatComponent {
   messages: { text: string; sender: 'user' | 'bot' }[] = [];
